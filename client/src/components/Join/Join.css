@@ -1,0 +1,75 @@
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.joinInnerContainer {
+  width: 20%;
+  border: 1px solid rgb(39, 147, 180);
+  border-radius: 4px;
+  padding-left: 55px;
+  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: rgb(160, 201, 248);
+  background-image: url("./JoinForm.jpg");
+  background-size: cover;
+  box-shadow: 10px 10px 6px rgb(45, 102, 122);
+}
+
+.joinInput {
+  border-radius: 2px;
+  padding: 15px 20px;
+  margin: 5px;
+  width: 100%;
+}
+
+.heading {
+  color: white;
+  font-size: 2.5em;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.button {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #4e83e0;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  width: 100%;
+  margin-left: 28px;
+  margin-top: 30px;
+}
+
+.chatName {
+  padding-right: 40px;
+  margin-right: 40px;
+  text-align: center;
+  font-size: xx-large;
+  color: #1063f3;
+  letter-spacing: 2px;
+}
+
+.aboutMe {
+  padding: 10px;
+  margin-left: 80px;
+  text-align: center;
+  font-size: xx-large;
+  color: #1063f3;
+  letter-spacing: 2px;
+  border: 1px solid #1063f3;
+  box-shadow: 5px 5px 4px rgb(45, 102, 122);
+  border-radius: 4px;
+}
+
+.aboutMeLink {
+  text-decoration: none;
+}
